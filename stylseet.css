@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Noto Serif JP', serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    letter-spacing: none;
+    list-style-type: none;
+    color: white;
+}
+.wrapper {
+    width: 100%;
+}
+.main {
+    background-color:#d6c299;
+    border: 1px solid #d6c299;
+}
+#header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+    writing-mode: vertical-rl;
+}
+#header .onlinestore {
+    background: gray;
+    position: absolute;
+}
+#header .onlinestore a {
+    display: block;
+    border: solid 1px white;
+    padding: 20px 10px;
+    color: white;
+}
+#news {
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: row-reverse;
+    width: 500px;
+    margin: 300px auto;
+}
+#news .section-title{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -80px;
+    left: 50px;
+}
+
+#news .list {
+    writing-mode: vertical-rl;
+}
+.menu h1 {
+    writing-mode: vertical-lr;
+    color: white;
+    position: relative;
+    left: 86%;
+    padding: 30px 30px;
+}
+/* .menu {
+    writing-mode: vertical-rl;
+    color: white;
+    position: relative;
+    left: 86%;
+    padding: 30px 20px;
+} */
+.onlinestore{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: 50%;
+    left: 80px;
+}
+li a{
+    color: white;
+    padding: 30px;
+}
+
+.bb{
+    font-size: 15px;
+}
+.aa {
+    font-size: 35px;
+}
+#news .list dt {
+    border-right: solid 1px;
+    padding: 15px 20px;
+    font-size: 6px;
+}
+#news .list dd {
+    padding: 15px 0 15px 20px;
+}
+.section-title {
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -200px;
+}
+.products1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ja{
+    font-size: 35px;
+}
+.en{
+    font-size: 15px
+}
+.products1 .text {
+    background: rgba(255, 255, 0, 0.5);
+    width: 250px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.ab {
+    text-align: right;
+    /* border: 3px solid red; */
+}
+.text{
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+}
+.inner-box {
+    position: relative;
+    display: inline-block;
+    /* border:  3px solid blue; */
+}
+
+.inner-box2 .text2 {
+    background: rgba(250, 10, 10, 0.5);
+    width: 250px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.inner-box2 {
+    position: relative;
+    display: inline-block;
+}
+.cd {
+    text-align: center;
+}
+.cd .text2 {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+}
+.section-title2 {
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -200px;
+}
+.products2 {
+    display: flex;
+    text-align: center;
+}
+/* #shop {
+    border: 3px solid red;
+    width: 100%;
+    height: 100%;
+} */
+#footer {
+    background: black;
+    width: 100%;
+    border: 3px solid blue;
+    
+}
+
+#footer .inner {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#footer .inner .right {
+  writing-mode: vertical-rl;
+  color: white;
+  height: 100%;
+  position: absolute;
+}
+.right h1 {
+    position: absolute;
+    right: -1500px;
+}
+#footer .inner .left {
+    writing-mode: vertical-lr;
+    color: white;
+}
+#footer .inner .info {
+    line-height: 2;
+}
+.info {
+    position: absolute;
+    right: -1450px;
+}
+#footer .menu {
+    margin-right: 60px;
+    position: absolute;
+    right: -1350px;
+    /* border: 3px solid whitesmoke; */
+}
+#footer .menu li {
+    margin-left: 25px;
+}
+#footer .left {
+    color: white;
+    writing-mode: vertical-lr;
+    /* border: 3px solid white; */
+}
+.left a {
+    color: white;
+    padding: 5px;
+}
+.left {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.left a:first-child {
+    border-bottom: 2px solid white;
+}
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+@media (max-width:768px){
+html body {
+    width: 100%;
+}
+.wrapper {
+    max-width: 100%;
+}
+#header {
+    background-image: url(1.jpg);
+}
+#header .onlinestore {
+    left: 20px;
+    bottom: 15px;
+    margin: 15px;
+    text-align: center;
+}
+
+}
